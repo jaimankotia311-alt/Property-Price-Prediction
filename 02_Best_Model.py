@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 import streamlit as st 
 
-model = joblib.load(r"C:\Users\Jay Mankotia\OneDrive\Desktop\AI ML\06 Property Project\regression_model.joblib")
+model = joblib.load("regression_model.joblib")
 
 st.set_page_config(page_title="Property Price Prediction" , page_icon="🏘️🛖🏠🏡")
 st.title("Property project")
